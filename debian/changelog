@@ -1,5 +1,5 @@
 %if DISTRIB Ubuntu
-%NAME% (%VERSION%-2%RELEASE%) %RELEASE%; urgency=low
+%NAME% (%VERSION%-1%RELEASE%) %RELEASE%; urgency=low
 %else
 %NAME% (%VERSION%-1) %RELEASE%; urgency=low
 %endif

@@ -17,8 +17,11 @@ Build-Depends: pkg-config,
     libcups2-dev,
     libsnappy-dev,
     libpoppler-dev,
+%ifnot RELEASE precise trusty
+    libpoppler-private-dev,
+%endif
     libpoppler-cpp-dev
-Standards-Version: 3.9.1
+Standards-Version: 3.9.5
 Homepage: https://github.com/Boomaga/boomaga
 
 Package: boomaga
